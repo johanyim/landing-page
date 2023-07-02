@@ -34,6 +34,7 @@ header.header {
 .logo {
     font-size: 24px;
     font-weight: 800;
+    color: #f9faf8;    
 }
 
 .links {
@@ -43,7 +44,47 @@ header.header {
 }
 
 
-.info {
+
+
+/* INFO */
+
+
+.opening {
     color: white;
     background-color: #1f2937;
+    display: flex;   
+    gap: 16px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;  
 }
+
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9f1f8;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+    margin-bottom: 10px;
+}
+
+
+.left {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center ;
+    background-color: grey;
+    font-weight: 300;
+}
+
+
