@@ -14,6 +14,7 @@ li {
     padding: 0;
 }
 
+
 .narrow {
     padding-left: 300px;
     padding-right: 300px;
@@ -48,6 +49,16 @@ header.header {
     font-weight: 300;
 }
 
+
+.links a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.links a:hover {
+    text-decoration: none;
+    color: #afafaf;
+}
 
 
 
@@ -92,7 +103,7 @@ header.header {
     font-weight: 300;
 }
 
-button.signup {
+.signup-button {
     color: white;
     font-size: 16px;
     background-color: rgb(12, 130, 209);
@@ -138,5 +149,31 @@ button.signup {
     font-weight: 300;
     text-align: center;
 }
+
+
+/* QUOTE */
+
+.quote-container {
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+.author {
+    color: #1f2937;
+    text-align: end;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+
 
 
